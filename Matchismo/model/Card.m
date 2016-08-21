@@ -22,7 +22,7 @@
     
     for(Card *card in otherCards){
         
-        if([card.contents isEqual:self.contents]){
+        if([card.contents isEqualToString:self.contents]){
         score = 1;
         }
     }
